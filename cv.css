@@ -1,0 +1,35 @@
+h1{
+    color: red;
+
+}
+
+p{
+    text-align: center;
+}
+
+body
+{
+    background-image: url("fond2.jpg");
+
+    
+}
+
+@font-face {
+    font-family: 'MaSuperPolice';
+    src: url('MaSuperPolice.woff') format('woff')
+}
+
+h1 
+{
+    font-family: 'MaSuperPolice.woff', Arial, serif;
+}
+
+ul {
+    border: 6px red;
+    box-shadow: 6px 6px 0px black;
+}
+
+a:visited img{
+    border: 1px solid #c00;
+    display: none;
+}
